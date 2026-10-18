@@ -11,7 +11,7 @@ Den här guiden visar hur du skapar en Supabase-databas för **CampusAI**, aktiv
 5. Välj en region, gärna nära dig, och klicka på **Create new project**.
 6. Vänta tills databasen är färdig att användas.
 
-> Databaslösenordet är **inte** samma sak som den API-nyckel du senare använder i `.env`.
+> Databaslösenordet är **inte** samma sak som den hemliga API-nyckel du senare använder i `.env`.
 
 ## 2. Aktivera pgvector och skapa tabellen
 
@@ -72,9 +72,9 @@ Du ska nu se kolumnerna `id`, `content`, `metadata` och `embedding`. Tabellen ä
 
 ## 4. Hitta projektets URL och API-nyckel
 
-1. Öppna **Project Settings** (kugghjulet) och gå till **API Keys** eller **Data API**. Menynamnen kan skilja sig något mellan olika versioner av Supabase.
+1. Öppna **Project Settings** (kugghjulet) och gå till **Data API**. Menynamnen kan skilja sig något mellan olika versioner av Supabase.
 2. Kopiera **Project URL** (brukar se ut som `https://xxxxxxxx.supabase.co`).
-3. Hitta projektets API-nycklar. För den här backendövningen kan du använda projektets **secret key** (`sb_secret_...`) eller den äldre **service_role**-nyckeln om projektet använder äldre nyckeltyper.
+3. Hitta projektets API-nycklar under **API Keys**. För den här backendövningen kan du använda projektets **secret key** (`sb_secret_...`) eller den äldre **service_role**-nyckeln om projektet använder äldre nyckeltyper.
 4. Lägg in värdena i backendprojektets `.env`-fil:
 
 ```env
