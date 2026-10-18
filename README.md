@@ -56,6 +56,7 @@ Implementera en komplett RAG-kedja där applikationen:
 5. Genererar ett svar baserat på informationen i dokumentet.
 
 **Dokumentet som ska användas samt startkoden för att läsa in och ladda upp det till Supabase finns redan i backendprojektet.**
+Instruktioner för att läsa in och ladda upp dokumentet till Supabase [hittar du här](./backend/SUPABASE_SETUP.md)
 
 ## Målsättning
 
